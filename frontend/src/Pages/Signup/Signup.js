@@ -1,12 +1,13 @@
 import React from "react";
-import { ReactComponent as Signup } from "../../Assets/Signup/signup.jpg";
-const SignUp = () => {
+import "./signup.css";
+
+export const SignUp = () => {
   return (
     <div className="main">
       <div className="container">
         <div className="card">
           <div className="cardImage">
-            <Signup />
+            <img src="/image/Signup/signup.jpg" />
           </div>
           <div className="cardForm"></div>
         </div>
@@ -14,4 +15,3 @@ const SignUp = () => {
     </div>
   );
 };
-export default SignUp;
