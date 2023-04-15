@@ -9,7 +9,12 @@ export const SignUp = () => {
           <div className="cardImage">
             <img src="/image/Signup/signup.jpg" />
           </div>
-          <div className="cardForm"></div>
+          <div className="cardForm">
+            <div className="cardTitle">
+              <p>Welcome to StayBnB</p>
+            </div>
+            <div className="cardUnit"></div>
+          </div>
         </div>
       </div>
     </div>
